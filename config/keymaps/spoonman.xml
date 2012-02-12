@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<keymap version="1" name="spoonman" parent="$default">
+  <action id="DecrementWindowHeight" />
+  <action id="EditorDuplicate" />
+  <action id="EditorDuplicateLines">
+    <keyboard-shortcut first-keystroke="control D" />
+  </action>
+  <action id="IncrementWindowHeight" />
+  <action id="LineDownMover">
+    <keyboard-shortcut first-keystroke="shift control K" />
+    <keyboard-shortcut first-keystroke="shift control DOWN" />
+  </action>
+  <action id="LineUpMover">
+    <keyboard-shortcut first-keystroke="shift control I" />
+    <keyboard-shortcut first-keystroke="shift control UP" />
+  </action>
+  <action id="MoveStatementDown" />
+  <action id="MoveStatementUp" />
+  <action id="ResizeToolWindowDown" />
+  <action id="ResizeToolWindowUp" />
+  <action id="SwitchApply">
+    <keyboard-shortcut first-keystroke="shift alt ENTER" />
+  </action>
+  <action id="SwitchDown">
+    <keyboard-shortcut first-keystroke="shift alt DOWN" />
+  </action>
+  <action id="SwitchLeft">
+    <keyboard-shortcut first-keystroke="shift alt LEFT" />
+  </action>
+  <action id="SwitchRight">
+    <keyboard-shortcut first-keystroke="shift alt RIGHT" />
+  </action>
+  <action id="SwitchUp">
+    <keyboard-shortcut first-keystroke="shift alt UP" />
+  </action>
+</keymap>
+
